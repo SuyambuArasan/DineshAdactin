@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8474347400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch The Adactin Url",
+            "match": {
+              "location": "StepDefinitionCheck.user_Launch_The_Adactin_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": ": Login page",
+        "description": "",
+        "id": "validating-a-hotel-booking-application;:-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172243700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the \"Dineshkasiraman34215\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dineshkasiraman34215",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitionCheck.user_enter_the_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112051900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the \"QD4INB\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QD4INB",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitionCheck.user_enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1474135500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the login Button  and it navigates to search hotel page",
+            "match": {
+              "location": "StepDefinitionCheck.user_click_the_login_Button_and_it_navigates_to_search_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3936502600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select the desired inputs",
+            "match": {
+              "location": "StepDefinitionCheck.user_select_the_desired_inputs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@suyambuarasan"
+          }
+        ]
+      }
+    ],
+    "name": "Validating a Hotel Booking Application",
+    "description": "",
+    "id": "validating-a-hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/dines/eclipse-workspace/DineshAdactin/src/test/java/runnerclass/suyambu.feature"
+  }
+]
